@@ -219,17 +219,42 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
               <div class="textIndent" id='content' role="main">
                   <div class="region region-content">
     <div id="block-block-10" class="block block-block">
+
     <p><h2>MyOSU is Currently Undergoing Scheduled Maintenance: 11/24/2016</h2></p>
 
     <p>The MyOSU portal is currently undergoing maintenance and is unavailable at this time.</p>
 
-    <p><ul>
-        <li><a href="http://infosu.oregonstate.edu/login" target="_blank">Online Services</a></li>
 
-        <li><a href="https://secure.onid.oregonstate.edu/redirmail.php" target="_blank">ONID Email</a></li>
+    <div id="block-block-63" class="block block-block">
+    <div class="content">
+    <style> 
+    #block-block-63 p:hover, #block-block-62 p:focus {
+      background: #333!important;
+    }
 
-        <li><a href="https://drive.google.com/a/onid.oregonstate.edu/" target="_blank">Google Drive</a></li>
-    </ul></p>
+
+    </style>
+
+    <div class="row-fluid">
+    <div class="span4">
+    <a style="text-decoration:none;color:#fff;font-size:20px;" href="http://infosu.oregonstate.edu/login" onclick="ga('send', 'event', 'tools', 'Online Services');"><p style="background:#c34500;color:#fff;padding: 20px;"><i class=" icon-chevron-right"></i> Online Services</p></a>
+    </div>
+    <div class="span4">
+    <a style="text-decoration:none;color:#fff;font-size:20px;" href="https://secure.onid.oregonstate.edu/redirmail.php" onclick="ga('send', 'event', 'tools', 'ONID Email');"><p style="background:#c34500;color:#fff;padding: 20px;"><i class=" icon-chevron-right"></i> ONID Email</p></a>
+    </div>
+    <div class="span4">
+    <a style="text-decoration:none;color:#fff;font-size:20px;" href="https://drive.google.com/a/onid.oregonstate.edu/" onclick="ga('send', 'event', 'tools', 'Google Drive');"><p style="background:#c34500;color:#fff;padding: 20px;"><i class=" icon-chevron-right"></i> Google Drive</p></a>
+    </div>
+    </div>
+    </div>
+
+    </div>
+
+
+
+
+
+
 
     <p><h3>Student, Faculty, and Advisor Links</h3></p>
 
@@ -294,7 +319,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
             <!-- Main page columns  -->
             
 
-            <!-- Post-ontent -->
+            <!-- Post-content -->
             
           </div> <!-- Content area -->
 
@@ -309,7 +334,6 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
             <div class="region region-sidebar-first">
     <div id="block-block-13" class="block block-block">
 
-    <h2>Top Sites</h2>
   
   <div class="content">
 <ul><li><a href="http://osu.workforcehosting.com/">EmpCenter</a></li>
