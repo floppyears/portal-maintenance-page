@@ -52,20 +52,20 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 <div id='osu-top-hat' class ='new container-fluid'><a href='http://oregonstate.edu' class='tag'><img src='http://main.oregonstate.edu/sites/all/themes/doug_fir/images/new_logo.png' class='logo' alt='Oregon State University' /><span class='mobile-header'>OREGON STATE UNIVERSITY</span></a>
 
 <h1 style="text-indent: 3px";>
-<a href="https://main.oregonstate.edu">Oregon State University </a>
+<a href="http://main.oregonstate.edu">Oregon State University </a>
 </h1>
-<a href='/search/osu' id="search-link" class="m-icon-link"><i class="icon-search"></i></a>
+<a href='http://main.oregonstate.edu/search/osu' id="search-link" class="m-icon-link"><i class="icon-search"></i></a>
 
 
 
 </div>
 <div id="mobile-icon-menu">
   <a href='#' id="toggle-mobile-menu" class="m-icon-link"><i class="icon-reorder"></i></a>
-  <a href='/search/osu' id="mobile-search-link" class="m-icon-link"><i class="icon-search"></i></a>
+  <a href='http://main.oregonstate.edu/search/osu' id="mobile-search-link" class="m-icon-link"><i class="icon-search"></i></a>
 </div>
 
 <div id='page-wrapper' class='container-fluid'>
-    <div id="search-overlay">
+    <div id="search-overlay" style="display:none;">
       <form class="search" role="search" action="/" method="post" id="osu-search-top-hat-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-term">
       <label class="element-invisible" for="edit-term">Search Field </label>
        <input class="search-terms form-text" placeholder="Search this site" type="text" id="edit-term" name="term" value="" size="60" maxlength="128" />
@@ -109,6 +109,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 </div>
   </div>
       </div>
+
 
 
     
@@ -261,7 +262,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
     <div id="block-block-13">
 
   
-  <div class="content">
+  <div class="content" style="padding: 0px; margin-top: 5px;">
 <ul><li><a href="http://osu.workforcehosting.com/">EmpCenter</a></li>
 <li><a href="http://exmail.oregonstate.edu/">Webmail</a></li>
 <li><a href="http://oregonstate.edu/campusmap/">Maps</a></li>
@@ -333,10 +334,9 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <div class="content">
     <style>
 
-div.textIndent p, h1, h2 {
+div.textIndent p, h1, h2, h3 {
   text-indent: 10px;
 }
-
 
 .book_printer {
 display:none!important;
@@ -376,7 +376,7 @@ font-size:16px;
 
 .classic #main-menu .menu > li > a, .classic #main-menu .nice-menu > li > a {
 border:none;
-margin-top:6px;
+margin-top:0px;
 }
 
 .classic #main-menu .nice-menu > li > ul {
