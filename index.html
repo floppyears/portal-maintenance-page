@@ -40,7 +40,6 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 //--><!]]>
 </script>
 
-
 </head>
 
 <body class="html front not-logged-in one-sidebar sidebar-first page-lookup " >
@@ -50,7 +49,8 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 <!-- OSU Top Hat -->
     
 <!-- Top-Hat -->
-<div id='osu-top-hat' class ='new container-fluid'><a href='http://oregonstate.edu' class='tag'><img src='http://main.oregonstate.edu/sites/all/themes/doug_fir/images/new_logo.png' class='logo' alt='Oregon State University' /><span class='mobile-header'>OREGON STATE UNIVERSITY</span></a>
+<div id='osu-top-hat' class ='new container-fluid'>
+  <a href='http://oregonstate.edu' class='tag'><img src='http://main.oregonstate.edu/sites/all/themes/doug_fir/images/new_logo.png' class='logo' alt='Oregon State University' /><span class='mobile-header'>OREGON STATE UNIVERSITY</span></a>
 
 <h1 style="text-indent: 3px";>
 <a href="http://main.oregonstate.edu">Oregon State University </a>
@@ -168,21 +168,16 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
     
 
     </div>
+
+    <div class="content">
     <p><h2 style="text-indent: 0px">MyOSU is Currently Undergoing Scheduled Maintenance: 11/24/2016</h2></p>
 
     <p>The MyOSU portal is currently undergoing maintenance and is unavailable at this time.</p>
-              <div class="textIndent" id='content' role="main">
-                  <div class="region region-content">
+      
 
 
-
-    
-
-
-
-
-
-
+      <div class="textIndent" id='content' role="main">
+        <div class="region region-content">
 
     <p><h3>Student, Faculty, and Advisor Links</h3></p>
 
@@ -240,6 +235,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
         <li><a href="https://adminfo.ucsadm.oregonstate.edu:4453/wfprod/logon.jsp" target="_blank">Workflow</a></li>
     </ul></p>   
 </div>
+</div>
 
   </div>
               </div> <!-- /content -->
@@ -263,7 +259,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
     <div id="block-block-13">
 
   
-  <div class="content" style="padding: 5px 0 0 0; margin-top: 5px;">
+  <div class="content" >
 <ul><li><a href="http://osu.workforcehosting.com/">EmpCenter</a></li>
 <li><a href="http://exmail.oregonstate.edu/">Webmail</a></li>
 <li><a href="http://oregonstate.edu/campusmap/">Maps</a></li>
@@ -362,9 +358,6 @@ margin-bottom:0px;
 z-index: 999;
 }
 
-#block-block-10 .content {
-padding: 0px 0px 0px 0px;
-}
 
 .classic #header {
 display:none;
